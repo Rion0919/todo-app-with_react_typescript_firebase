@@ -13,7 +13,9 @@ const App: React.FC = () => {
     return () => unSub();
   }, [])
 
-  return <div className="App">{tasks.map((task) => (
+  return <div className="App">
+    <h1>Hello</h1>
+    {tasks.map((task) => (
     <h3>{task.title}</h3>
   ))}</div>;
 };
