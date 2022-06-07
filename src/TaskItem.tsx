@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import * as firebase from 'firebase/app';
 import styles from './TaskItem.module.css';
 import { Grid, ListItem, TextField } from '@material-ui/core';
 import { DeleteOutlineOutlined } from '@material-ui/icons';
